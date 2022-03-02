@@ -23,7 +23,7 @@ A sperate Word file will be created for each row of the excel file.
 # Usage
 Prepare your excel file. Prepare your Word template files. run `python main.py`.
 
-# Example
+# Example Description
 We have a `test.xlsx` file which contains information about countries. The first column of the `test.xlsx` contains the flag of the country.
 The other columns contain other information, we get and name each row by this way:
 ```
@@ -62,7 +62,7 @@ It is also a good idea to prepare multiple templates and use them randomly or in
         doc = word.Documents.Open(path + r'\templates\1.docx')
 ```
 
-# Test example
+# Test Example
 We have an Excel file like this:
 ![excel](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/excel.png)
 
