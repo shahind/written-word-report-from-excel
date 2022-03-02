@@ -41,7 +41,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
     calendar    = row.Cells[8]
 ```
 
-توجه کنید که Cells[0] شامل عکس پرچم کشورهاست و سطر 0 هدر یا عنوان ستون هاست و با continue از آن عبور کرده ایم.
+توجه کنید که Cells[0] شامل عکس پرچم کشورهاست و سطر 0 هدر یا عنوان ستون هاست و با `continue` از آن عبور کرده ایم.
 
 در فایل قالب، ما محل قرار گیری داده ها را با کلماتی با حروف بزرگ انگلیسی مشخص کرده ایم، مانند NAME, CONTINENT, ... بدین ترتیب، به سادگی می توانیم آنها را با مقادیر موجود در هر سطر که در متغیرهای بالا ذخیره کردیم جایگزین کنیم:
 ```
@@ -117,7 +117,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
     new_year    = row.Cells[7]
     calendar    = row.Cells[8]
 ```
-
+The first row (`i=0`) is the header row which we don't need it. And the `Cell[0]` is the cell which contains the flag picture. Finding the pictures in Excel is not similar to reading the values of the cells, so we do not get the value of the `Cell[0]` here.  
 In our template file, we have prepared a sample text with indicators like NAME, CONTINENT, ... and we will replace these indicators with the above mentioned values like this:
 ```
     replace_string(doc,"NAME",name)
