@@ -6,7 +6,7 @@
 pip install pywin32
 ```
 
-به دلیل استفاده از این کتابخانه، احتمالا تنها در سیستم عامل ویندوز قادر به استفاده از این اسکریپت هستید، در ضمن باید ورد و اکسل را هم روی سیستم خود نصب داشته باشید
+به دلیل استفاده از این کتابخانه، احتمالا تنها در سیستم عامل ویندوز قادر به استفاده از این اسکریپت هستید، در ضمن باید ورد و اکسل را هم روی سیستم خود نصب داشته باشید(این کد فقط بر روی ویندوز 10 و آفیس 2019 تست شده است)
 
 # ساختار کد
 سه پوشه اصلی در این کد وجود دارد:  
@@ -88,7 +88,7 @@ This script uses win32com, so first install win32com for python.
 pip install pywin32
 ```
 
-As a result, this script is probably works only on Windows, and you must have installed Microsoft Word and Excel.
+As a result, this script is probably works only on Windows, and you must have installed Microsoft Word and Excel. (It has been only tested on Windows 10 and Office 2019)
 
 # Structure
 There are three main directories:  
