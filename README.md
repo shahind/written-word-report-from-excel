@@ -1,5 +1,5 @@
 # Turn Excel files to written Word reports
-This python script exports an Excel file to written word reports.
+This python script exports an Excel file to written Word reports.
 
 # Requirements
 This script uses win32com, so first install win32com for python.
