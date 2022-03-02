@@ -28,7 +28,7 @@ pip install pywin32
 فایل `test.xlsx` را در نظر بگیرید. این فایل اطلاعاتی از کشور های محتلف را در خود دارد.
 اولین ستون فایل `test.xlsx` تصویری از پرچم کشورها را در خود دارد. خواندن عکس ها در فایل اکسل به سادگی خواندن داده های سطر و ستون ها نیست و این پرچم برای نشان داده نحوه کار با عکس ها در فایل اکسل آورده شده است.
 سایر ستون ها نیز اطلاعات دیگری در بر دارند، ابتدا لازم است اطلاعات هر یک از ستون ها را برای یک سطر خوانده و در متغیرهایی ذخیره کنیم:
-```
+```python
 for i,row in enumerate(sheet.UsedRange.Rows):
     if(i==0): continue
     name        = row.Cells[1]
@@ -44,7 +44,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
 توجه کنید که Cells[0] شامل عکس پرچم کشورهاست و سطر 0 هدر یا عنوان ستون هاست و با `continue` از آن عبور کرده ایم.
 
 در فایل قالب، ما محل قرار گیری داده ها را با کلماتی با حروف بزرگ انگلیسی مشخص کرده ایم، مانند NAME, CONTINENT, ... بدین ترتیب، به سادگی می توانیم آنها را با مقادیر موجود در هر سطر که در متغیرهای بالا ذخیره کردیم جایگزین کنیم:
-```
+```python
     replace_string(doc,"NAME",name)
     replace_string(doc,"CONTINENT",continent)
     replace_string(doc,"CAPITAL",capital)
@@ -57,7 +57,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
 
 در نتیجه لازم است بنابر فایل اکسل خودتان این متغیر ها و جای آنها را در قالب خودتان مشخص و تعریف کنید.
 به منظور ایجاد تنوع نیز می توانید قالب های مختلفی ایجاد کنید و به صورت تصادفی یا با ترتیب مشخص از آنها استفاده کنید تا متن های تولید شده کمتر شبیه یکدیگر باشند، به عنوان مثال اگر 3 فایل قالب تعریف کرده باشید می توانید به صورت زیر از آنها استفاده کنید:
-```
+```python
     if(i%2==0):
         doc = word.Documents.Open(path + r'\templates\2.docx')
     elif(i%3==0):
@@ -105,7 +105,7 @@ Prepare your excel file. Prepare your Word template files. run `python main.py`.
 # Example Description
 We have a `test.xlsx` file which contains information about countries. The first column of the `test.xlsx` contains the flag of the country.
 The other columns contain other information, we get and name each row by this way:
-```
+```python
 for i,row in enumerate(sheet.UsedRange.Rows):
     if(i==0): continue
     name        = row.Cells[1]
@@ -119,7 +119,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
 ```
 The first row (`i=0`) is the header row which we don't need it. And the `Cell[0]` is the cell which contains the flag picture. Finding the pictures in Excel is not similar to reading the values of the cells, so we do not get the value of the `Cell[0]` here.  
 In our template file, we have prepared a sample text with indicators like NAME, CONTINENT, ... and we will replace these indicators with the above mentioned values like this:
-```
+```python
     replace_string(doc,"NAME",name)
     replace_string(doc,"CONTINENT",continent)
     replace_string(doc,"CAPITAL",capital)
@@ -132,7 +132,7 @@ In our template file, we have prepared a sample text with indicators like NAME, 
 
 So you need to prepare you Word templates with your desired indicators for your Excel file. 
 It is also a good idea to prepare multiple templates and use them randomly or in order, so if you have 3 templates you may use something like this:
-```
+```python
     if(i%2==0):
         doc = word.Documents.Open(path + r'\templates\2.docx')
     elif(i%3==0):
