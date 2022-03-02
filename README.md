@@ -7,7 +7,7 @@ This script uses win32com, so first install win32com for python.
 pip install pywin32
 ```
 
-Because of this, thic script is probably works only on Windows, and you must have installed Microsoft Word and Excel.
+As a result, this script is probably works only on Windows, and you must have installed Microsoft Word and Excel.
 
 # Structure
 There are three main directories:  
