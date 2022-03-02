@@ -16,8 +16,8 @@ There are three main directories:
 ├── out  
 └── main.py   
 
-The scripts produces written Word reports based on the templates in `templates` directory.
-You may find a default template `1.docx` in `templates` directory which is a sample text.
+The script produces written Word reports based on the templates in `templates` directory.
+You may find a default template `1.docx` in `templates` directory which is a sample template for `test.xlsx`.
 A sperate Word file will be created for each row of the excel file.
 
 # Usage
