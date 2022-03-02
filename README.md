@@ -74,7 +74,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
 ![template](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
 
 پس از اجرا، دو فایل ورد(برابر تعداد سطرهای فایل اکسل) به صورت زیر در پوشه `out` خواهیم داشت:
-![result](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/out.png)
+![result](https://github.com/shahind/written-word-report-from-excel/blob/bf15486ba4264077ce3ea24a4eea4e589490d63e/result.png)
 
 توجه کنید که این اسکریپت با قالب های فارسی و مقادیر فارسی در فایل اکسل نیز کار می کند. همچنین قالب می تواند استایل مخصوص خود را نیز داشته باشد، بنابراین فونت و تمام تنظیمات ورد حفظ خواهد شد. همچنین شماره گذاری های جداول و عکس ها یا شماره مراجع نیز حفظ خواهد شد. اما بهتر است برای مشخص کردن جای متغیر ها از حروف فارسی استفاده نکنید و از حروف انگلیسی بزرگ استفاده کنید. چیزی شبیه به این: `NAME کشوری در CONTINENT است`.
 
@@ -151,4 +151,4 @@ And a template like this:
 ![template](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
 
 The result would be two Word files in `out` directory like this:
-![result](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/out.png)
+![result](https://github.com/shahind/written-word-report-from-excel/blob/bf15486ba4264077ce3ea24a4eea4e589490d63e/result.png)
