@@ -21,11 +21,11 @@ You may find a default template `1.docx` in `templates` directory which is a sam
 A sperate Word file will be created for each row of the excel file.
 
 # Usage
-Prepare your excel file. Prepare your templates Word files. run `python main.py`.
+Prepare your excel file. Prepare your Word template files. run `python main.py`.
 
 # Example
 We have a `test.xlsx` file which contains information about countries. The first column of the `test.xlsx` contains the flag of the country.
-The other columns other contain information, we get and name each row by this way:
+The other columns contain other information, we get and name each row by this way:
 ```
 for i,row in enumerate(sheet.UsedRange.Rows):
     if(i==0): continue
@@ -39,7 +39,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
     calendar    = row.Cells[8]
 ```
 
-In our template file, we have prepared asample text with indicators like NAME, CONTINENT, ... and we will replace this indicators with the above mentioned values like this:
+In our template file, we have prepared a sample text with indicators like NAME, CONTINENT, ... and we will replace these indicators with the above mentioned values like this:
 ```
     replace_string(doc,"NAME",name)
     replace_string(doc,"CONTINENT",continent)
@@ -51,8 +51,8 @@ In our template file, we have prepared asample text with indicators like NAME, C
     replace_string(doc,"CALENDAR",calendar)
 ```
 
-So you need to prepare you Word templates with your desired indicators. 
-It is also a good to prepare multiple templates and use them randomly or in order, so if you have 3 templates you may use something like this:
+So you need to prepare you Word templates with your desired indicators for your Excel file. 
+It is also a good idea to prepare multiple templates and use them randomly or in order, so if you have 3 templates you may use something like this:
 ```
     if(i%2==0):
         doc = word.Documents.Open(path + r'\templates\2.docx')
