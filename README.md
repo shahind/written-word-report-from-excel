@@ -12,9 +12,9 @@ Because of this, thic script is probably works only on Windows, and you must hav
 # Structure
 There are three main directories:  
 ├── excels  
-├── templates 
-├── out 
-└── main.py  
+├── templates  
+├── out  
+└── main.py   
 
 The scripts produces written Word reports based on the templates in `templates` directory.
 You may find a default template `1.docx` in `templates` directory which is a sample text.
@@ -67,7 +67,7 @@ We have an Excel file like this:
 ![excel](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/excel.png)
 
 And a template like this:
-![template](https://github.com/shahind/written-word-report-from-excel/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/main/word.png)
+![template](https://github.com/shahind/written-word-report-from-excel/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
 
 The result would be like this:
-![result](https://github.com/shahind/written-word-report-from-excel/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/main/out.png)
+![result](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/out.png)
