@@ -71,7 +71,7 @@ for i,row in enumerate(sheet.UsedRange.Rows):
 ![excel](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/excel.png)
 
 قالبی که برای این فایل تعریف کرده ایم مانند زیر است(به کلمات با حروف بزرگ دقت کنید):
-![template](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
+![template](https://github.com/shahind/written-word-report-from-excel/blob/4367f31529d07a545cc6b9e6055ae5d01fdf42cc/template.png)
 
 پس از اجرا، دو فایل ورد(برابر تعداد سطرهای فایل اکسل) به صورت زیر در پوشه `out` خواهیم داشت:
 ![result](https://github.com/shahind/written-word-report-from-excel/blob/bf15486ba4264077ce3ea24a4eea4e589490d63e/result.png)
@@ -148,7 +148,7 @@ We have an Excel file like this:
 ![excel](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/excel.png)
 
 And a template like this:
-![template](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
+![template](https://github.com/shahind/written-word-report-from-excel/blob/4367f31529d07a545cc6b9e6055ae5d01fdf42cc/template.png)
 
 The result would be two Word files in `out` directory like this:
 ![result](https://github.com/shahind/written-word-report-from-excel/blob/bf15486ba4264077ce3ea24a4eea4e589490d63e/result.png)
