@@ -67,7 +67,7 @@ We have an Excel file like this:
 ![excel](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/excel.png)
 
 And a template like this:
-![template](https://github.com/shahind/written-word-report-from-excel/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
+![template](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/word.png)
 
 The result would be like this:
 ![result](https://github.com/shahind/written-word-report-from-excel/blob/5cb9e47b6f427f4f57daf2394eb0c1ceb13b331f/out.png)
