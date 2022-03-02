@@ -1,6 +1,5 @@
 import pathlib
 import win32com.client as win32
-from docx import Document
 
 # Default Word replace has a 256 character limit for replace text
 # this function splites the replace text to 200 character slices
