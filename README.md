@@ -130,7 +130,7 @@ In our template file, we have prepared a sample text with indicators like NAME, 
     replace_string(doc,"CALENDAR",calendar)
 ```
 
-So you need to prepare you Word templates with your desired indicators for your Excel file. 
+So you need to prepare your Word templates with your desired indicators for your Excel file. 
 It is also a good idea to prepare multiple templates and use them randomly or in order, so if you have 3 templates you may use something like this:
 ```python
     if(i%2==0):
